@@ -1,6 +1,6 @@
 import styles from 'src/components/p-gallery.module.scss';
-import { Loading } from './Loading';
-import { Thumbnail } from './thumbnail';
+import { Loading } from 'src/components/Loading';
+import { Thumbnail } from 'src/components/thumbnail';
 
 export function Gallery(props) {
   const { urls } = props;
