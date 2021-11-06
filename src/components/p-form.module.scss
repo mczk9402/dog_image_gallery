@@ -1,0 +1,29 @@
+.p-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+  &__select-wrap {
+    position: relative;
+    padding-right: 1.5em;
+    &::before {
+      content: '▼';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      font-weight: bold;
+    }
+  }
+  &__select {
+    width: 100%;
+    font-size: 30px;
+  }
+  &__button {
+    margin-left: 24px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+  }
+}

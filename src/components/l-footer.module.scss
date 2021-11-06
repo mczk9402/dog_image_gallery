@@ -1,6 +1,9 @@
 .l-footer {
+  display: flex;
+  justify-content: center;
   position: relative;
   margin-top: auto;
+  padding: 8px 0;
   color: #fff;
   background-color: #222;
   &::before {
